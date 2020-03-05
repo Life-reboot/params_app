@@ -7,5 +7,6 @@ Rails.application.routes.draw do
     get "/name_url" => "games#name_method"
     get "/guess_url" => "games#guess_method"
     get "/guess_url/:the_users_guess" => "games#guess_method"
+    post "/guess_url" => "games#guess_method"
   end
 end
